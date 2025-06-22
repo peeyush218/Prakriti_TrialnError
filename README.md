@@ -41,11 +41,11 @@
 ## 🧠 GUIDE THROUGH THE PLATFORM
 
 ### 🧭 Navigation:
-- A new *"Greenovation Zone"* in the navbar redirects to the eco-friendly section.
+- A new *"Prakriti Store"* in the navbar redirects to the eco-friendly section.
 - A *green badge* marks every verified sustainable product.
   
 ### 🔄 Product Swap:
-- Shows *green alternatives* to traditional products when available.
+- Shows *sustainable alternatives* to traditional products when available.
 
 ### 🧪 Badge Details:
 - Hover over badges to reveal *sustainability metrics* (e.g., water usage, recycled %, etc.)
