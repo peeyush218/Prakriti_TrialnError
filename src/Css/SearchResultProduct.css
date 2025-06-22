@@ -1,0 +1,124 @@
+.search-result-product {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 15px;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+  transition: all 0.2s ease-in-out;
+  height: 100%; /* Ensure all cards in a row have the same height */
+}
+
+.search-result-product:hover {
+  border-color: #ddd;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.search-result-product__image-container {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-result-product__image {
+  max-height: 180px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.search-result-product__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result-product__title_link {
+  text-decoration: none;
+  color: #0F1111;
+}
+
+.search-result-product__title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 5px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 58px; /* Approx 3 lines */
+}
+
+.search-result-product__rating-reviews {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.search-result-product__rating {
+  color: #FFA41C;
+  font-size: 16px;
+}
+
+.search-result-product__review-count {
+  font-size: 14px;
+  color: #007185;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.search-result-product__past-purchases {
+  font-size: 12px;
+  color: #565959;
+  margin: 0 0 5px 0;
+}
+
+.search-result-product__price-container {
+  margin: 5px 0;
+}
+
+.search-result-product__price {
+  font-size: 21px;
+  font-weight: 700;
+  color: #0F1111;
+}
+
+.search-result-product__currency {
+  font-size: 12px;
+  vertical-align: super;
+  margin-right: 2px;
+}
+
+.search-result-product__mrp {
+  font-size: 12px;
+  color: #565959;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.search-result-product__delivery {
+  font-size: 12px;
+  color: #0F1111;
+}
+
+.search-result-product__add-to-cart {
+  background-color: #FFD814;
+  border: 1px solid #FCD200;
+  border-radius: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 11px;
+  width: 50%;
+  margin-top: 25px; /* Pushes button to the bottom */
+  transition: background-color 0.2s ease;
+}
+
+.search-result-product__add-to-cart:hover {
+  background-color: #F7CA00;
+} 

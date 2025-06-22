@@ -1,0 +1,41 @@
+.category-circles {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    background-color: #fefce8; /* light yellow / beige */
+    overflow-x: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 100px;
+}
+
+.category-image-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 8px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+
+.category-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-item p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+} 

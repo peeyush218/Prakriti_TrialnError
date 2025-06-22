@@ -1,0 +1,155 @@
+.recommended-product-card {
+    border: none;
+    background-color: #fff;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    min-width: 220px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended-product-image-link {
+    text-align: center;
+}
+
+.recommended-product-image-container {
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.recommended-product-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.recommended-product-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.recommended-product-title-link {
+    text-decoration: none;
+    color: #0F1111;
+}
+
+.recommended-product-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    min-height: 40px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recommended-product-title-link:hover .recommended-product-title {
+    color: #C7511F;
+}
+
+.recommended-product-rating {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.recommended-product-rating .star {
+    font-size: 15px;
+    color: #FFA41C;
+}
+
+.recommended-product-reviews {
+    color: #007185;
+    margin-left: 6px;
+    font-size: 13px;
+}
+
+.best-seller-badge {
+    margin: 4px 0;
+}
+.best-seller-text {
+    background-color: #C7511F;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.best-seller-category-text {
+    font-size: 12px;
+    color: #0F1111;
+    margin-left: 5px;
+}
+
+.deal-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 4px 0;
+}
+.deal-discount-badge, .deal-type-badge {
+    color: #CC0C39;
+    font-size: 12px;
+    font-weight: 700;
+}
+.deal-discount-badge {
+    background-color: #CC0C39;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+.deal-type-badge {
+    color: #CC0C39;
+}
+
+
+.recommended-product-price {
+    display: flex;
+    align-items: baseline;
+    margin-top: 4px;
+}
+
+.price-symbol {
+    font-size: 13px;
+    align-self: flex-start;
+    margin-right: 1px;
+}
+
+.price-main {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.price-decimal {
+    font-size: 13px;
+    align-self: flex-start;
+    margin-right: 4px;
+}
+
+.recommended-product-mrp {
+    font-size: 13px;
+    color: #565959;
+    text-decoration: line-through;
+}
+
+.recommended-product-delivery {
+    font-size: 13px;
+    margin: 4px 0 0;
+    color: #0F1111;
+}
+
+.recommended-product-delivery-faint {
+    font-size: 12px;
+    color: #565959;
+    margin-top: 2px;
+} 

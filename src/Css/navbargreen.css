@@ -1,0 +1,50 @@
+.amazon-nav {
+    background-color: #232f3e; /* Background color */
+    color: #ffffff; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content */
+    padding: 5px 20px; /* Decreased top and bottom padding */
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px; /* Fixed height of the navigation bar */
+  }
+  
+  .amazon-nav-section {
+    display: flex;
+    align-items: center; /* Vertically center the list and button */
+  }
+  
+  .amazon-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .amazon-nav-list li {
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  
+  .amazon-nav a {
+    text-decoration: none;
+    /* font-weight: 500; */
+    color: #ffffff; /* Text color */
+    transition: color 0.3s;
+  }
+  
+  .amazon-nav a:hover {
+    color: #FF9900; /* Change text color on hover */
+  }
+  
+  .non-clickable-link {
+    color: white;
+    padding: 8px 10px;
+    white-space: nowrap;
+    cursor: default;
+  }
+  

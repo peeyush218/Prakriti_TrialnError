@@ -1,0 +1,39 @@
+.home {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e3e6e6;
+}
+
+.home__container {
+  position: relative;
+  z-index: 1;
+}
+
+.home__grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: -220px; /* Adjust to pull cards up over the image slider gradient */
+}
+
+/* Remove old row styles */
+.home__row {
+  display: none;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+
+.grid-column-stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,124 @@
+// This file will serve as a single source of truth for all mock data.
+
+export const posts = [
+    {
+        id: '1',
+        title: 'Interest Check: Bulk Order for Organic Grains',
+        author: 'Prakhar',
+        avatar: 'https://i.pravatar.cc/150?u=prakhar',
+        time: '6h ago',
+        tags: ['Order Pooling', 'Local Delivery'],
+        isPool: true,
+        poolDetails: { current: 3, needed: 10 },
+        body: 'Hi mates, I am looking to pool an order for organic vegetables from the local farm. This would significantly reduce the delivery emissions. Would anyone from the Green Oaks area be interested in joining? We need at least 10 people to make it viable. The potential supplier has a great reputation for quality and sustainable farming practices.',
+        likes: 125,
+        comments: [
+            {
+                id: 'c1-1', author: 'Jane Doe', avatar: 'https://i.pravatar.cc/150?u=jane', time: '5h ago',
+                text: "I'm definitely interested! I live in Green Oaks and have been looking for a way to get fresher produce. Count me in.",
+                likes: 15, replies: []
+            },
+            {
+                id: 'c1-2', author: 'Alex Ray', avatar: 'https://i.pravatar.cc/150?u=alex', time: '4h ago',
+                text: 'Great idea, Prakhar! Could you share more details on the pricing and the types of vegetables available?',
+                likes: 8,
+                replies: [
+                    { id: 'r1-1', author: 'Prakhar', avatar: 'https://i.pravatar.cc/150?u=prakhar', time: '4h ago', text: "Absolutely, Alex. I'll be posting a full list with prices later today. Stay tuned!", likes: 5 }
+                ]
+            },
+            {
+                id: 'c1-3', author: 'Sara', avatar: 'https://i.pravatar.cc/150?u=sara', time: '2h ago',
+                text: 'This is awesome! I can help coordinate pickups if needed.',
+                likes: 10, replies: []
+            },
+            {
+                id: 'c1-4', author: 'Mike', avatar: 'https://i.pravatar.cc/150?u=mike', time: '1h ago',
+                text: "What's the estimated delivery date?",
+                likes: 2, replies: []
+            },
+            {
+                id: 'c1-5', author: 'Chloe', avatar: 'https://i.pravatar.cc/150?u=chloe', time: '30m ago',
+                text: 'I am in! This is a fantastic initiative for our community.',
+                likes: 7, replies: []
+            }
+        ]
+    },
+    {
+        id: '2',
+        title: 'Seeking Advice on Zero-Waste Packaging Solutions',
+        author: 'Sustainable Sarah',
+        avatar: 'https://i.pravatar.cc/150?u=sarah',
+        time: '1d ago',
+        tags: ['Packaging', 'Zero Waste'],
+        body: "Our community has made great strides in reducing plastic use, but we're struggling with packaging from online orders. Does anyone have experience or success with vendors who offer returnable or zero-waste packaging options? Looking for practical advice!",
+        likes: 98,
+        comments: [
+            { id: 'c2-1', author: 'EcoWarrior', avatar: 'https://i.pravatar.cc/150?u=warrior', time: '22h ago', text: "Loop is a great service for this, but can be pricey. I've had luck just emailing smaller shops and asking them directly!", likes: 12, replies: [] },
+            { id: 'c2-2', author: 'Brooklyn Simmons', avatar: 'https://i.pravatar.cc/150?u=brooklyn', time: '19h ago', text: 'Some Etsy sellers are really accommodating with plastic-free shipping if you message them beforehand. It has worked for me a few times.', likes: 18, replies: [] },
+            { id: 'c2-3', author: 'Tom', avatar: 'https://i.pravatar.cc/150?u=tom', time: '15h ago', text: 'Has anyone tried making their own packaging materials from old newspapers?', likes: 9, replies: [] },
+            { id: 'c2-4', author: 'GreenThumb', avatar: 'https://i.pravatar.cc/150?u=greenthumb', time: '12h ago', text: 'I focus on buying locally to avoid shipping altogether. Farmers markets are a great resource.', likes: 25, replies: [] }
+        ]
+    },
+    {
+        id: '3',
+        title: 'DIY Composting for Apartment Dwellers',
+        author: 'Urban Gardener',
+        avatar: 'https://i.pravatar.cc/150?u=urban',
+        time: '2d ago',
+        tags: ['Composting', 'DIY'],
+        body: "I've finally perfected my small-space composting setup on my balcony and wanted to share the details. It's odor-free and produces amazing soil for my container plants. Here's a step-by-step guide for anyone interested.",
+        likes: 152,
+        comments: [
+             { id: 'c3-1', author: 'Prakhar', avatar: 'https://i.pravatar.cc/150?u=prakhar', time: '1d ago', text: 'This is exactly what I was looking for! Thanks for sharing.', likes: 7, replies: [] },
+             { id: 'c3-2', author: 'Darlene Robertson', avatar: 'https://i.pravatar.cc/150?u=darlene', time: '1d ago', text: 'Amazing! Can you post a picture of your setup?', likes: 9,
+                replies: [
+                    { id: 'r3-1', author: 'Urban Gardener', avatar: 'https://i.pravatar.cc/150?u=urban', time: '1d ago', text: 'Sure thing, I just added a few to the main post!', likes: 11 }
+                ]
+            },
+            { id: 'c3-3', author: 'PlantMom', avatar: 'https://i.pravatar.cc/150?u=plantmom', time: '20h ago', text: "Does this attract any pests? I'm worried about that.", likes: 4, replies: [] },
+            { id: 'c3-4', author: 'CityDweller', avatar: 'https://i.pravatar.cc/150?u=city', time: '18h ago', text: 'This is brilliant. I never thought composting was possible in an apartment.', likes: 15, replies: [] },
+            { id: 'c3-5', author: 'EcoStudent', avatar: 'https://i.pravatar.cc/150?u=student', time: '12h ago', text: 'Thank you so much for the detailed guide!', likes: 8, replies: [] },
+            { id: 'c3-6', author: 'Leo', avatar: 'https://i.pravatar.cc/150?u=leo', time: '10h ago', text: 'How long does it take to get usable compost?', likes: 6, replies: [] }
+        ]
+    },
+    {
+        id: '4',
+        title: 'Launch of Local Repair Cafe - Volunteers Needed!',
+        author: 'FixIt Felix',
+        avatar: 'https://i.pravatar.cc/150?u=felix',
+        time: '4d ago',
+        tags: ['Circular Economy', 'Community'],
+        body: 'Exciting news! We are launching a monthly Repair Cafe at the community center starting next month. We can help with electronics, textiles, and more. We are currently looking for skilled volunteers. Let me know if you want to help reduce waste and share your skills!',
+        likes: 210,
+        comments: [
+            { id: 'c4-1', author: 'Jane Cooper', avatar: 'https://i.pravatar.cc/150?u=cooper', time: '3d ago', text: "This is a fantastic initiative! I'm great at sewing and would love to help with textile repairs.", likes: 25, replies: [] },
+            { id: 'c4-2', author: 'Albert Flores', avatar: 'https://i.pravatar.cc/150?u=albert', time: '3d ago', text: 'I can help with small electronics. Where do I sign up?', likes: 18, replies: [] },
+            { id: 'c4-3', author: 'CommunityFirst', avatar: 'https://i.pravatar.cc/150?u=community', time: '2d ago', text: 'What are the opening hours?', likes: 7, replies: [] },
+            { id: 'c4-4', author: 'HandyMan', avatar: 'https://i.pravatar.cc/150?u=handy', time: '2d ago', text: "I don't have repair skills, but I can help with organizing and logistics.", likes: 15, replies: [] },
+            { id: 'c4-5', author: 'Maria', avatar: 'https://i.pravatar.cc/150?u=maria', time: '1d ago', text: 'Will you have tools available, or should volunteers bring their own?', likes: 10, replies: [] }
+        ]
+    }
+];
+
+export const localShoppers = [
+    { name: 'Leslie Alexander', location: 'Green Oaks', avatar: 'https://i.pravatar.cc/150?u=leslie' },
+    { name: 'Darlene Robertson', location: 'Willow Creek', avatar: 'https://i.pravatar.cc/150?u=darlene' },
+    { name: 'Albert Flores', location: 'Green Oaks', avatar: 'https://i.pravatar.cc/150?u=albert' },
+    { name: 'Jane Cooper', location: 'Maplewood', avatar: 'https://i.pravatar.cc/150?u=cooper' },
+    { name: 'Brooklyn Simmons', location: 'Willow Creek', avatar: 'https://i.pravatar.cc/150?u=brooklyn' },
+    { name: 'Cameron Williamson', location: 'Green Oaks', avatar: 'https://i.pravatar.cc/150?u=cameron' },
+    { name: 'Jenny Wilson', location: 'Maplewood', avatar: 'https://i.pravatar.cc/150?u=jenny' },
+];
+
+export const trendingTopicsData = [
+    '#ZeroWastePackaging',
+    '#CommunityComposting',
+    '#SustainableFashion',
+    '#ElectricDelivery',
+];
+
+export const relatedCommunitiesData = [
+    { name: 'Local Produce Exchange', members: '2.1k members' },
+    { name: 'Urban Gardeners Collective', members: '1.8k members' },
+    { name: 'Zero-Waste Warriors', members: '3.4k members' },
+]; 

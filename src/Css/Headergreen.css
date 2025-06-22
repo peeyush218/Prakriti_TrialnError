@@ -1,0 +1,228 @@
+.headerg {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #4a7352;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-direction: row;
+  padding: 0 30px 0 20px;
+}
+
+.header__logog {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 10px 0 0;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.header__locationg {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 32px;
+}
+
+.header__locationIcong {
+  width: 25px;
+  height: 20px;
+  margin-right: 0px;
+  padding-top: 10px;
+}
+
+.header__locationTextg {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.header__locationLineOneg {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.header__locationLineTwog {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header__searchg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin-right: 32px;
+  min-width: 0;
+}
+
+.header__searchBoxg {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.header__searchDropdowng {
+  background: #e5e5e5;
+  width: 70px;
+  color: #595959;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px 0 0 4px;
+  height: 37px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header__searchDropdowng::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  height: 26px;
+  width: 1px;
+  background: #ccc;
+}
+
+.header__searchDropdowng span:first-child {
+  margin-right: 10px;
+}
+
+.header__dropdownArrowg {
+  font-size: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #6c6c6c;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.header__searchInputg {
+  height: 38px;
+  padding: 0 12px;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+  outline: none;;
+  font-size: 14px;
+  background: white;
+  display: flex;
+  align-items: center;
+  line-height: 38px;
+}
+
+
+.header__searchButtong {
+  background: #febd69;
+  border: none;
+  width: 50px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: background 0.2s;
+  padding: 0;
+}
+
+.header__searchButtong:hover {
+  background: #f3a847;
+}
+
+.header__searchIcong {
+  height: 24px !important;
+  width: 24px !important;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  object-fit: contain;
+}
+
+.header__langg {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 0;
+  margin-right: 32px;
+  margin-top: 5px;
+}
+
+.header__langFlagg {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.header__langTextg {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.header__cartIcong {
+  padding: 5px;
+  height: 29px !important;
+  background-color: #4a7352;
+}
+
+.header__optionLineOneg {
+  font-size: 10px;
+}
+
+.header__optionLineTwog {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasketg {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header_basketCountg {
+  margin-left: 0px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.header__navg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header__optiong {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__optiong:hover {
+  box-shadow: 0 0 0 0.5px #FFFFFF;
+} 
+
+Link {
+  text-decoration: none;
+}
+
+.header__optiong a{
+  text-decoration: none;
+  color: white;
+}

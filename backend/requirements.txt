@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+# For ML later
+transformers
+scikit-learn
+numpy
+python-dotenv
+google-generativeai
+sentence_transformers

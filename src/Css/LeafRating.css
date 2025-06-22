@@ -1,0 +1,15 @@
+.leaf-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 8px; /* Space below the star rating */
+}
+
+.leaf-rating input[type="radio"] {
+    display: none; /* Hide the actual radio buttons */
+}
+
+.leaf-rating .leaf-icon {
+    cursor: pointer;
+    transition: color 200ms;
+    margin-right: 2px; /* Space between leaves */
+} 

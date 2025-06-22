@@ -1,0 +1,38 @@
+.apparel-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 350px;
+}
+
+.apparel-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.apparel-card:hover .apparel-card__image {
+    transform: scale(1.05);
+}
+
+.apparel-card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apparel-card__title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+} 

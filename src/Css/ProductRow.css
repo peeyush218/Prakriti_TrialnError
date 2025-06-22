@@ -1,0 +1,31 @@
+.product-row {
+    background-color: white;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+  }
+  
+  .product-row > h2 {
+    margin-bottom: 15px;
+  }
+  
+  .product-row__items {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .product-row__items::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .product-row__items {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .product-row__items > * {
+    margin-right: 10px;
+  } 
