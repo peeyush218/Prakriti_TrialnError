@@ -119,10 +119,16 @@ Prakriti_TrialnError-main/
 
 ## 📸 SNAPSHOTS
 
-![dashboard (1)](https://github.com/user-attachments/assets/20ffbcbc-44fd-401e-8d2d-b87e02fca81d)
+
+![search_functionality (1)](https://github.com/user-attachments/assets/1a31cab1-c347-419c-b9a0-055eeec67a8d)
+
+![Prakriti_home (1)](https://github.com/user-attachments/assets/ec6be5bd-f1ba-4f78-8a53-496a1c385de0)
 
 ![navbar_1 (1) mp4](https://github.com/user-attachments/assets/ba358008-995e-4111-abbd-23fb9d7174d9)
 
+![navbar_2 (1)](https://github.com/user-attachments/assets/eaae8f86-af42-4667-b9b9-e2c8353796c3)
+
+![dashboard (1)](https://github.com/user-attachments/assets/20ffbcbc-44fd-401e-8d2d-b87e02fca81d)
 
 
 
