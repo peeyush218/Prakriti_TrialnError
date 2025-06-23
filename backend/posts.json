@@ -1,5 +1,26 @@
 [
-    
+    {
+        "id": "post_1750643621.289385",
+        "title": "Example ",
+        "author": "Jamie Miller",
+        "username": null,
+        "avatar": "https://i.pravatar.cc/150?u=avbj8r",
+        "time": "Just now",
+        "tags": [
+            "Order Pooling",
+            "Local Delivery"
+        ],
+        "isPool": true,
+        "location": "Whitefield",
+        "poolDetails": {
+            "current": 1,
+            "needed": 10
+        },
+        "body": "Something",
+        "content": null,
+        "comments": [],
+        "likes": 0
+    },
     {
         "id": "post_1750510263.993539",
         "title": "Looking for Collaborators for Order Pooling!",
@@ -16,7 +37,7 @@
             "current": 1,
             "needed": 10
         },
-        "body": "Hey everyone! I\u2019m about to place an order on Prakriti and was wondering if anyone nearby is also planning to shop soon?\nI\u2019d love to pool our orders together to reduce delivery trips and make it more eco-friendly \u267b\ufe0f.\n\nIf you\u2019re in Mathikere, let\u2019s connect and save some carbon footprint together!\nAlso, I think there are shared delivery perks we can unlock this way.\n\nDrop a reply if interested!",
+        "body": "Hey everyone! I am about to place an order on Prakriti and was wondering if anyone nearby is also planning to shop soon?\nI\u2019d love to pool our orders together to reduce delivery trips and make it more eco-friendly \u267b\ufe0f.\n\nIf you\u2019re in Mathikere, let\u2019s connect and save some carbon footprint together!\nAlso, I think there are shared delivery perks we can unlock this way.\n\nDrop a reply if interested!",
         "likes": 0,
         "comments": []
     },
@@ -36,7 +57,7 @@
             "current": 3,
             "needed": 10
         },
-        "body": "Hi mates, I am looking to pool an order for organic vegetables from the local farm. This would significantly reduce the delivery emissions. Would anyone from the Green Oaks area be interested in joining? We need at least 10 people to make it viable. The potential supplier has a great reputation for quality and sustainable farming practices.",
+        "body": "Hi mates, I am looking to pool an order for organic vegetables from the local farm. This would significantly reduce the delivery emissions. Would anyone from the Rajajinagar area be interested in joining? We need at least 10 people to make it viable. The potential supplier has a great reputation for quality and sustainable farming practices.",
         "likes": 125,
         "comments": [
             {

@@ -183,9 +183,9 @@ const generateRandomAvatar = (seed) => `https://i.pravatar.cc/150?u=${seed}`;
 
 const LeaderboardCard = () => {
     const leaderboard = [
-        { rank: '1st', name: 'Ananya Shah' },
-        { rank: '2nd', name: 'Mike Gupta' },
-        { rank: '3rd', name: 'Ayaan Verma' },
+        { rank: '1st', name: 'Jacob Jones' },
+        { rank: '2nd', name: 'Robert Fox' },
+        { rank: '3rd', name: 'Albert Flores' },
     ];
     return (
         <div className="card">

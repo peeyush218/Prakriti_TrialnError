@@ -12,4 +12,54 @@
     cursor: pointer;
     transition: color 200ms;
     margin-right: 2px; /* Space between leaves */
+}
+
+.leaf-tooltip {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(60, 180, 80, 0.12);
+    padding: 16px 20px;
+    min-width: 220px;
+    z-index: 10;
+    font-size: 0.95rem;
+    color: #222;
+    animation: fadeIn 0.2s;
+    opacity: 1;
+}
+.leaf-tooltip-title {
+    font-weight: bold;
+    color: #388e3c;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.leaf-tooltip-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+}
+.leaf-tooltip-bar {
+    flex: 1;
+    height: 8px;
+    background: #e0f2f1;
+    border-radius: 4px;
+    margin: 0 6px;
+    overflow: hidden;
+}
+.leaf-tooltip-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #66bb6a, #43a047);
+    border-radius: 4px;
+}
+.leaf-tooltip-check {
+    font-size: 1.2em;
+    color: #43a047;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px);}
+    to { opacity: 1; transform: translateY(0);}
 } 

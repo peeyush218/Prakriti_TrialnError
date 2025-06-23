@@ -130,9 +130,16 @@ function ProductDetails() {
                         <a href="#" className="product-reviews-link">{mockData.reviews.toLocaleString()} ratings</a>
                     </div>
                     {product.is_sustainable && randomLeafRating && (
-                        <LeafRating initialRating={randomLeafRating} />
+                        <>
+                            <div style={{ marginBottom: '8px' }}>
+                                <LeafRating initialRating={randomLeafRating} />
+                            </div>
+                            <div className="amazon-choice">Amazon's Choice</div>
+                        </>
                     )}
-                    <div className="amazon-choice">Amazon's Choice</div>
+                    {!product.is_sustainable && (
+                        <div className="amazon-choice">Amazon's Choice</div>
+                    )}
                     <div className="past-purchase-info">{mockData.boughtInPastMonth}+ bought in past month</div>
                     <hr />
                     <div className="product-price-section">
